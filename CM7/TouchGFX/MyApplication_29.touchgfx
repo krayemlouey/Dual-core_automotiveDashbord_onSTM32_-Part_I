@@ -1,0 +1,1858 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "DashboardMedium",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "backgroundColor",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Green": 12,
+              "Blue": 25
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 19,
+            "Width": 800,
+            "Height": 478,
+            "RelativeFilename": "LJm66.png"
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "leftLines",
+            "X": -280,
+            "Width": 540,
+            "Height": 480,
+            "Image": "background_hexagon.svg",
+            "ImageHorizontalScale": 1.0,
+            "ImageVerticalScale": 1.0
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "rightLines",
+            "X": 537,
+            "Width": 262,
+            "Height": 480,
+            "Image": "background_hexagon.svg",
+            "ImagePositionX": 540.0,
+            "ImageHorizontalScale": -1.0,
+            "ImageVerticalScale": 1.0
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "gauge",
+            "X": -1,
+            "Width": 800,
+            "Height": 480,
+            "CustomContainerDefinitionName": "GaugeMedium"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "bpmButton",
+            "X": 268,
+            "Y": 350,
+            "Width": 49,
+            "Height": 48,
+            "Deselectable": true,
+            "FileNameSelected": "DashboardScreens\\icon_bpm_active.png",
+            "FileNameSelectedPressed": "DashboardScreens\\icon_bpm_active.png",
+            "FileNameUnselected": "DashboardScreens\\icon_bpm_normal.png",
+            "FileNameUnselectedPressed": "DashboardScreens\\icon_bpm_normal.png",
+            "RadioButtonGroup": "gaugeButtonsGroup"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "distanceButton",
+            "X": 332,
+            "Y": 350,
+            "Width": 49,
+            "Height": 48,
+            "Deselectable": true,
+            "FileNameSelected": "DashboardScreens\\icon_distance_active.png",
+            "FileNameSelectedPressed": "DashboardScreens\\icon_distance_active.png",
+            "FileNameUnselected": "DashboardScreens\\icon_distance_normal.png",
+            "FileNameUnselectedPressed": "DashboardScreens\\icon_distance_normal.png",
+            "RadioButtonGroup": "gaugeButtonsGroup"
+          },
+          {
+            "Type": "Container",
+            "Name": "bpmText",
+            "X": 278,
+            "Y": 89,
+            "Width": 237,
+            "Height": 71,
+            "Visible": false,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "bpmValue",
+                "Y": -14,
+                "Width": 137,
+                "Height": 90,
+                "TextId": "dashboardMediumBpm",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 181,
+                  "Green": 215,
+                  "Blue": 253
+                },
+                "Wildcard1": {
+                  "TextId": "bpm",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "bpmSuffix",
+                "X": 150,
+                "Y": 17,
+                "Width": 127,
+                "Height": 54,
+                "TextId": "dashboardMediumBpmSuffix",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 181,
+                  "Green": 215,
+                  "Blue": 253
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "timeText",
+            "X": 275,
+            "Y": 75,
+            "Width": 250,
+            "Height": 90,
+            "TextId": "dashboardMediumTime",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 181,
+              "Green": 215,
+              "Blue": 253
+            },
+            "Wildcard1": {
+              "TextId": "hr",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Wildcard2": {
+              "TextId": "min",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "distanceText",
+            "X": 265,
+            "Y": 89,
+            "Width": 250,
+            "Height": 71,
+            "Visible": false,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "distanceValue",
+                "Y": -14,
+                "Width": 167,
+                "Height": 91,
+                "TextId": "dashboardMediumDist",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 181,
+                  "Green": 215,
+                  "Blue": 253
+                },
+                "Wildcard1": {
+                  "TextId": "distance",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "distanceSuffix",
+                "X": 184,
+                "Y": 17,
+                "Width": 106,
+                "Height": 60,
+                "TextId": "dashboardMediumDistSuffix",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 181,
+                  "Green": 215,
+                  "Blue": 253
+                }
+              }
+            ]
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "weatherButton",
+            "X": 30,
+            "Y": 20,
+            "Width": 122,
+            "Height": 112,
+            "Pressed": "button_pressed.png",
+            "Released": "button_normal.png",
+            "IconPressed": "DashboardScreens\\icon_weather.png",
+            "IconReleased": "DashboardScreens\\icon_weather.png",
+            "IconX": 25,
+            "IconY": 20,
+            "IconHeight": 72,
+            "IconWidth": 72
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "lockButton",
+            "X": 30,
+            "Y": 350,
+            "Width": 122,
+            "Height": 112,
+            "Visible": false,
+            "Pressed": "button_pressed.png",
+            "Released": "button_normal.png",
+            "IconPressed": "DashboardScreens\\icon_lock.png",
+            "IconReleased": "DashboardScreens\\icon_lock.png",
+            "IconX": 25,
+            "IconY": 20,
+            "IconHeight": 72,
+            "IconWidth": 72
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "languageButton",
+            "X": 683,
+            "Y": 176,
+            "Width": 122,
+            "Height": 112,
+            "Pressed": "button_pressed.png",
+            "Released": "button_normal.png",
+            "IconPressed": "DashboardScreens\\icon_language.png",
+            "IconReleased": "DashboardScreens\\icon_language.png",
+            "IconX": 25,
+            "IconY": 20,
+            "IconHeight": 72,
+            "IconWidth": 72
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "batteryButton",
+            "X": 648,
+            "Y": 20,
+            "Width": 122,
+            "Height": 112,
+            "Pressed": "button_pressed.png",
+            "Released": "button_normal.png",
+            "IconPressed": "DashboardScreens\\battery_background.png",
+            "IconReleased": "DashboardScreens\\battery_background.png",
+            "IconX": 29,
+            "IconY": 48,
+            "IconHeight": 38,
+            "IconWidth": 68
+          },
+          {
+            "Type": "Image",
+            "Name": "batteryIcon",
+            "X": 695,
+            "Y": 31,
+            "Width": 32,
+            "Height": 32,
+            "RelativeFilename": "DashboardScreens\\battery_leaf.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "batteryLevel",
+            "X": 685,
+            "Y": 76,
+            "Width": 48,
+            "Height": 22,
+            "RelativeFilename": "DashboardScreens\\battery_level_full_eco.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "modeButton",
+            "X": -62,
+            "Y": 189,
+            "Width": 174,
+            "Height": 89,
+            "Pressed": "button_small_left_pressed.png",
+            "Released": "button_small_left_normal.png",
+            "IconPressed": "DashboardScreens\\icon_mode.png",
+            "IconReleased": "DashboardScreens\\icon_mode.png",
+            "IconX": 98,
+            "IconY": 20,
+            "IconHeight": 48,
+            "IconWidth": 49
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "sizeButton",
+            "X": 706,
+            "Y": 196,
+            "Width": 174,
+            "Height": 89,
+            "Visible": false,
+            "Pressed": "button_small_right_pressed.png",
+            "Released": "button_small_right_normal.png",
+            "IconPressed": "DashboardScreens\\icon_format.png",
+            "IconReleased": "DashboardScreens\\icon_format.png",
+            "IconX": 28,
+            "IconY": 20,
+            "IconHeight": 48,
+            "IconWidth": 49
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "languageSelector",
+            "X": 800,
+            "Width": 404,
+            "Height": 480,
+            "CustomContainerDefinitionName": "LanguageSelector",
+            "Moveable": true
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "gaugefuel",
+            "X": 639,
+            "Y": 299,
+            "Width": 150,
+            "Height": 150,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "CenterX": 75.0,
+            "CenterY": 75.0,
+            "Radius": 65.0,
+            "LineWidth": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_circleprogress_backgrounds_medium.png",
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "gaugetemp",
+            "X": 16,
+            "Y": 302,
+            "Width": 150,
+            "Height": 150,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "CenterX": 75.0,
+            "CenterY": 75.0,
+            "Radius": 65.0,
+            "LineWidth": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Preset": "alternate_theme\\presets\\circleprogress\\active_medium.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_circleprogress_backgrounds_medium.png",
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60
+          },
+          {
+            "Type": "Image",
+            "Name": "image3",
+            "X": 668,
+            "Y": 311,
+            "Width": 100,
+            "Height": 100,
+            "RelativeFilename": "fuell.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image4",
+            "X": 22,
+            "Y": 305,
+            "Width": 140,
+            "Height": 150,
+            "RelativeFilename": "temppp.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "GPS",
+            "X": 562,
+            "Y": 442,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_active.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_active.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "bpmButtonClicked",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "bpmButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "bpmButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "distanceButtonClicked",
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "distanceButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "distanceButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "bpmButtonDeselected",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "bpmButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "timeButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "distanceButtonDeselected",
+            "Trigger": {
+              "Type": "TriggerRadioButtonDeselected",
+              "TriggerComponent": "distanceButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "timeButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "weatherButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "weatherButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "weatherButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "modeButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "modeButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "modeButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "languageButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "languageButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "languageButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "closeLanguageSelectorClicked",
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "LanguageSelector closeLanguageSelectorRequested happens",
+              "TriggerComponent": "languageSelector"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "closeLanguageSelectorClicked"
+            }
+          },
+          {
+            "InteractionName": "languageChanged",
+            "Trigger": {
+              "Type": "TriggerCustom",
+              "TriggerCustomTypeName": "LanguageSelector languageChanged happens",
+              "TriggerComponent": "languageSelector"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "languageChanged"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "GPS"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "MapScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": -30,
+            "Width": 860,
+            "Height": 480,
+            "RelativeFilename": "sec.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 508,
+            "Y": 101,
+            "Width": 269,
+            "Height": 45,
+            "TextId": "__SingleUse_LN2A",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 252,
+              "Green": 252,
+              "Blue": 252
+            },
+            "AutoSize": true,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 518,
+            "Y": 56,
+            "Width": 249,
+            "Height": 45,
+            "TextId": "__SingleUse_5ZAH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 7,
+              "Green": 207,
+              "Blue": 247
+            },
+            "AutoSize": true,
+            "Fadeable": true
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "lineProgress1",
+            "X": 207,
+            "Y": 406,
+            "Width": 400,
+            "Height": 10,
+            "FileNameProgress": "__generated\\alternate_theme_images_widgets_lineprogress_fillers_plain_normal_large_active_0.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartY": 5.0,
+            "EndY": 5.0,
+            "EndX": 400.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt",
+            "Preset": "alternate_theme\\presets\\lineprogress\\images\\plain\\normal\\large_active_0.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_large_0.png",
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60,
+            "Fadeable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 1000,
+              "AnimationDelay": 1200,
+              "ActionComponent": "textArea2"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Linear",
+              "EasingOption": "Out",
+              "Duration": 1200,
+              "AnimationDelay": 1400,
+              "ActionComponent": "textArea1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerProgressIndicatorValueUpdated",
+              "TriggerComponent": "lineProgress1"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 1500,
+              "AnimationDelay": 2000,
+              "ActionComponent": "lineProgress1"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerProgressIndicatorValueUpdateCompleted",
+              "TriggerComponent": "lineProgress1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "DashboardMedium"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "MapScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "mapCanvas",
+            "Width": 800,
+            "Height": 480
+          },
+          {
+            "Type": "Circle",
+            "Name": "gpsMarker",
+            "X": 392,
+            "Y": 232,
+            "Width": 16,
+            "Height": 16,
+            "Color": {
+              "Red": 255
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 40.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "gpsInfoText",
+            "X": 10,
+            "Y": 10,
+            "Width": 274,
+            "Height": 24,
+            "TextId": "__SingleUse_MDQ9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_B0Y2",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_KAXV"
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 650,
+            "Y": 400,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_tiny_rounded_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\tiny_rounded_normal.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "DashboardMedium"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "MusicScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 800,
+            "Height": 478,
+            "RelativeFilename": "LJm66.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "playpause",
+            "X": 322,
+            "Y": 388,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_large_round_text_on_action.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_large_round_text_on_action.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Next",
+            "X": 531,
+            "Y": 400,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_action.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_arrow_right_alt_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_action.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Previous",
+            "X": 178,
+            "Y": 400,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_action.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_west_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_action.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SongName",
+            "X": 322,
+            "Y": 276,
+            "Width": 95,
+            "Height": 24,
+            "TextId": "__SingleUse_1BKN",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "lineProgress1",
+            "X": 268,
+            "Y": 346,
+            "Width": 300,
+            "Height": 10,
+            "FileNameProgress": "__generated\\alternate_theme_images_widgets_lineprogress_fillers_plain_normal_medium_action_0.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartY": 5.0,
+            "EndY": 5.0,
+            "EndX": 300.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt",
+            "Preset": "alternate_theme\\presets\\lineprogress\\images\\plain\\normal\\medium_action_0.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_medium_0.png",
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "playpause"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "playClicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Next"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "nextClicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Previous"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "previousClicked"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "GaugeMedium",
+        "Width": 800,
+        "Height": 480,
+        "Components": [
+          {
+            "Type": "SvgImage",
+            "Name": "gaugeBGLeft",
+            "X": 135,
+            "Y": 22,
+            "Width": 150,
+            "Height": 436,
+            "Image": "DashboardScreens\\gauge_base.svg",
+            "ImageHorizontalScale": 1.0,
+            "ImageVerticalScale": 1.0
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "gaugeBGRight",
+            "X": 515,
+            "Y": 22,
+            "Width": 150,
+            "Height": 436,
+            "Image": "DashboardScreens\\gauge_base.svg",
+            "ImageHorizontalScale": 1.0,
+            "ImageVerticalScale": 1.0,
+            "RotationCenterX": 75.0,
+            "RotationCenterY": 218.0,
+            "RotationDegrees": 180.0
+          },
+          {
+            "Type": "Container",
+            "Name": "gaugeBGTopLeft",
+            "X": 285,
+            "Y": 22,
+            "Width": 81,
+            "Height": 32,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "gaugeBGLightTopLeft",
+                "Width": 81,
+                "Height": 10,
+                "Color": {
+                  "Red": 58,
+                  "Green": 102,
+                  "Blue": 150
+                }
+              },
+              {
+                "Type": "Box",
+                "Name": "gaugeBGDarkTopLeft",
+                "Y": 10,
+                "Width": 81,
+                "Height": 22,
+                "Color": {
+                  "Red": 14,
+                  "Green": 32,
+                  "Blue": 52
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "gaugeBGBottomLeft",
+            "X": 285,
+            "Y": 426,
+            "Width": 81,
+            "Height": 32,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "gaugeBGDarkBottomLeft",
+                "Width": 81,
+                "Height": 22,
+                "Color": {
+                  "Red": 14,
+                  "Green": 32,
+                  "Blue": 52
+                }
+              },
+              {
+                "Type": "Box",
+                "Name": "gaugeBGLightBottomLeft",
+                "Y": 22,
+                "Width": 81,
+                "Height": 10,
+                "Color": {
+                  "Red": 58,
+                  "Green": 102,
+                  "Blue": 150
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "gaugeBGBottomRight",
+            "X": 434,
+            "Y": 426,
+            "Width": 81,
+            "Height": 32,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "gaugeBGDarkBottomRight",
+                "Width": 81,
+                "Height": 22,
+                "Color": {
+                  "Red": 14,
+                  "Green": 32,
+                  "Blue": 52
+                }
+              },
+              {
+                "Type": "Box",
+                "Name": "gaugeBGLightBottomRight",
+                "Y": 22,
+                "Width": 81,
+                "Height": 10,
+                "Color": {
+                  "Red": 58,
+                  "Green": 102,
+                  "Blue": 150
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "gaugeBGTopRight",
+            "X": 434,
+            "Y": 22,
+            "Width": 81,
+            "Height": 32,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "gaugeBGDarkTopRight",
+                "Y": 10,
+                "Width": 81,
+                "Height": 22,
+                "Color": {
+                  "Red": 14,
+                  "Green": 32,
+                  "Blue": 52
+                }
+              },
+              {
+                "Type": "Box",
+                "Name": "gaugeBGLightTopRight",
+                "Width": 81,
+                "Height": 10,
+                "Color": {
+                  "Red": 58,
+                  "Green": 102,
+                  "Blue": 150
+                }
+              }
+            ]
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "gaugeBGEndTopLeft",
+            "X": 366,
+            "Y": 22,
+            "Width": 14,
+            "Height": 32,
+            "Image": "DashboardScreens\\gauge_base_end.svg",
+            "ImageHorizontalScale": 1.0,
+            "ImageVerticalScale": 1.0
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "gaugeBGEndTopRight",
+            "X": 420,
+            "Y": 22,
+            "Width": 14,
+            "Height": 32,
+            "Image": "DashboardScreens\\gauge_base_end.svg",
+            "ImagePositionX": 14.0,
+            "ImageHorizontalScale": -1.0,
+            "ImageVerticalScale": 1.0
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "gaugeFGEndBottomLeft",
+            "X": 366,
+            "Y": 426,
+            "Width": 14,
+            "Height": 32,
+            "Image": "DashboardScreens\\gauge_blue_end.svg",
+            "ImageHorizontalScale": 1.0,
+            "ImageVerticalScale": 1.0
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "gaugeFGEndBottomRightGreen",
+            "X": 420,
+            "Y": 426,
+            "Width": 14,
+            "Height": 32,
+            "Image": "DashboardScreens\\gauge_green_end.svg",
+            "ImageHorizontalScale": 1.0,
+            "ImageVerticalScale": 1.0
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "gaugeFGEndBottomRightOrange",
+            "X": 420,
+            "Y": 426,
+            "Width": 14,
+            "Height": 32,
+            "Visible": false,
+            "Image": "DashboardScreens\\gauge_orange_end.svg",
+            "ImageHorizontalScale": 1.0,
+            "ImageVerticalScale": 1.0
+          },
+          {
+            "Type": "Container",
+            "Name": "gaugeFGBottomLeft",
+            "X": 284,
+            "Y": 426,
+            "Width": 82,
+            "Height": 32,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "gaugeFGDarkBottomLeft",
+                "Width": 82,
+                "Height": 22,
+                "Color": {
+                  "Red": 11,
+                  "Green": 65,
+                  "Blue": 93
+                }
+              },
+              {
+                "Type": "Box",
+                "Name": "gaugeFGLightBottomLeft",
+                "Y": 22,
+                "Width": 82,
+                "Height": 10,
+                "Color": {
+                  "Green": 198,
+                  "Blue": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "gaugeFGTopLeft",
+            "X": 283,
+            "Y": 22,
+            "Width": 82,
+            "Height": 32,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "gaugeFGDarkTopLeft",
+                "Y": 10,
+                "Width": 82,
+                "Height": 22,
+                "Color": {
+                  "Red": 11,
+                  "Green": 65,
+                  "Blue": 93
+                }
+              },
+              {
+                "Type": "Box",
+                "Name": "gaugeFGLightTopLeft",
+                "Width": 82,
+                "Height": 10,
+                "Color": {
+                  "Green": 198,
+                  "Blue": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "gaugeFGBottomRight",
+            "X": 434,
+            "Y": 426,
+            "Width": 82,
+            "Height": 32,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "gaugeFGDarkBottomRight",
+                "Width": 82,
+                "Height": 22,
+                "Color": {
+                  "Red": 11,
+                  "Green": 77,
+                  "Blue": 66
+                }
+              },
+              {
+                "Type": "Box",
+                "Name": "gaugeFGLightBottomRight",
+                "Y": 22,
+                "Width": 82,
+                "Height": 10,
+                "Color": {
+                  "Green": 255,
+                  "Blue": 120
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "gaugeFGTopRight",
+            "X": 434,
+            "Y": 22,
+            "Width": 82,
+            "Height": 32,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "gaugeFGDarkTopRight",
+                "Y": 10,
+                "Width": 82,
+                "Height": 22,
+                "Color": {
+                  "Red": 62,
+                  "Green": 55,
+                  "Blue": 46
+                }
+              },
+              {
+                "Type": "Box",
+                "Name": "gaugeFGLightTopRight",
+                "Width": 82,
+                "Height": 10,
+                "Color": {
+                  "Red": 255,
+                  "Green": 149,
+                  "Blue": 24
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Circle",
+            "Name": "gaugeFGLeft",
+            "X": 135,
+            "Y": 22,
+            "Width": 530,
+            "Height": 436,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 250.0,
+            "CenterY": 218.0,
+            "Radius": 275.0,
+            "StartAngle": 204.8,
+            "EndAngle": 204.8,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "gaugeFGRight",
+            "X": 135,
+            "Y": 22,
+            "Width": 530,
+            "Height": 436,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 280.0,
+            "CenterY": 218.0,
+            "Radius": 275.0,
+            "StartAngle": 155.2,
+            "EndAngle": 155.2,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Box",
+            "Name": "gaugeFill1",
+            "X": 274,
+            "Y": 58,
+            "Width": 255,
+            "Height": 364,
+            "Visible": false,
+            "Color": {
+              "Green": 12,
+              "Blue": 25
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "gaugeFill2",
+            "X": 226,
+            "Y": 140,
+            "Width": 352,
+            "Height": 200,
+            "Visible": false,
+            "Color": {
+              "Green": 12,
+              "Blue": 25
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedText",
+            "X": 156,
+            "Y": 158,
+            "Width": 154,
+            "Height": 140,
+            "TextId": "gaugeMediumKm",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 198,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "kmh",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "powerText",
+            "X": 364,
+            "Y": 158,
+            "Width": 250,
+            "Height": 140,
+            "TextId": "gaugeMediumWh",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 255,
+              "Blue": 120
+            },
+            "Wildcard1": {
+              "TextId": "whkm",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "powerLabel",
+            "X": 387,
+            "Y": 292,
+            "Width": 130,
+            "Height": 31,
+            "TextId": "gaugeMediumWhkm",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 181,
+              "Green": 215,
+              "Blue": 253
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedLabel",
+            "X": 205,
+            "Y": 292,
+            "Width": 120,
+            "Height": 31,
+            "TextId": "gaugeMediumKmh",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 181,
+              "Green": 215,
+              "Blue": 253
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "topDivider",
+            "X": 233,
+            "Y": 171,
+            "Width": 334,
+            "Height": 2,
+            "Color": {
+              "Red": 14,
+              "Green": 32,
+              "Blue": 52
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "lowerDivider",
+            "X": 256,
+            "Y": 346,
+            "Width": 288,
+            "Height": 2,
+            "Color": {
+              "Red": 14,
+              "Green": 32,
+              "Blue": 52
+            }
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "indicatorSpeed",
+            "X": 350,
+            "Y": 14,
+            "Width": 50,
+            "Height": 50,
+            "Image": "DashboardScreens\\Indicator.svg",
+            "LockToCenter": true,
+            "ImagePositionX": 3.0,
+            "ImagePositionY": 14.0,
+            "ImageHorizontalScale": 1.0,
+            "ImageVerticalScale": 1.0,
+            "RotationCenterX": 25.0,
+            "RotationCenterY": 25.0,
+            "RotationDegrees": 90.0
+          },
+          {
+            "Type": "SvgImage",
+            "Name": "indicatorPower",
+            "X": 400,
+            "Y": 14,
+            "Width": 50,
+            "Height": 50,
+            "Image": "DashboardScreens\\Indicator.svg",
+            "LockToCenter": true,
+            "ImagePositionX": 3.0,
+            "ImagePositionY": 14.0,
+            "ImageHorizontalScale": 1.0,
+            "ImageVerticalScale": 1.0,
+            "RotationCenterX": 25.0,
+            "RotationCenterY": 25.0,
+            "RotationDegrees": 90.0
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedLabel0",
+            "X": 348,
+            "Y": 396,
+            "Width": 32,
+            "Height": 26,
+            "TextId": "__SingleUse_5ZDC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 58,
+              "Green": 102,
+              "Blue": 150
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedLabel25",
+            "X": 185,
+            "Y": 228,
+            "Width": 32,
+            "Height": 26,
+            "TextId": "__SingleUse_7RPA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 58,
+              "Green": 102,
+              "Blue": 150
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedLabel50",
+            "X": 348,
+            "Y": 60,
+            "Width": 32,
+            "Height": 26,
+            "TextId": "__SingleUse_EGER",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 58,
+              "Green": 102,
+              "Blue": 150
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "powerLabel0",
+            "X": 420,
+            "Y": 396,
+            "Width": 32,
+            "Height": 26,
+            "TextId": "__SingleUse_N434",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 58,
+              "Green": 102,
+              "Blue": 150
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "powerLabel15",
+            "X": 583,
+            "Y": 228,
+            "Width": 32,
+            "Height": 26,
+            "TextId": "__SingleUse_GRB8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 58,
+              "Green": 102,
+              "Blue": 150
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "powerLabel30",
+            "X": 420,
+            "Y": 60,
+            "Width": 32,
+            "Height": 26,
+            "TextId": "__SingleUse_JRVV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 58,
+              "Green": 102,
+              "Blue": 150
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionExecuteCode"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "LanguageSelector",
+        "Width": 404,
+        "Height": 480,
+        "IsCacheableContainer": true,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "outline",
+            "Width": 4,
+            "Height": 480,
+            "Color": {
+              "Red": 14,
+              "Green": 32,
+              "Blue": 52
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "background",
+            "X": 4,
+            "Width": 400,
+            "Height": 480,
+            "Color": {
+              "Green": 12,
+              "Blue": 25
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "englishButton",
+            "X": 34,
+            "Y": 92,
+            "Width": 340,
+            "Height": 80,
+            "Pressed": "DashboardScreens\\LanguageMenu\\side_menu_button_pressed.png",
+            "Released": "DashboardScreens\\LanguageMenu\\side_menu_button_normal.png",
+            "IconPressed": "DashboardScreens\\LanguageMenu\\flag_icon_english.png",
+            "IconReleased": "DashboardScreens\\LanguageMenu\\flag_icon_english.png",
+            "IconX": 24,
+            "IconY": 16,
+            "IconHeight": 48,
+            "IconWidth": 48
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "chineseButton",
+            "X": 34,
+            "Y": 188,
+            "Width": 340,
+            "Height": 80,
+            "Pressed": "DashboardScreens\\LanguageMenu\\side_menu_button_pressed.png",
+            "Released": "DashboardScreens\\LanguageMenu\\side_menu_button_normal.png",
+            "IconPressed": "DashboardScreens\\LanguageMenu\\flag_icon_chinese.png",
+            "IconReleased": "DashboardScreens\\LanguageMenu\\flag_icon_chinese.png",
+            "IconX": 24,
+            "IconY": 16,
+            "IconHeight": 48,
+            "IconWidth": 48
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "japaneseButton",
+            "X": 34,
+            "Y": 284,
+            "Width": 340,
+            "Height": 80,
+            "Pressed": "DashboardScreens\\LanguageMenu\\side_menu_button_pressed.png",
+            "Released": "DashboardScreens\\LanguageMenu\\side_menu_button_normal.png",
+            "IconPressed": "DashboardScreens\\LanguageMenu\\flag_icon_japanese.png",
+            "IconReleased": "DashboardScreens\\LanguageMenu\\flag_icon_japanese.png",
+            "IconX": 24,
+            "IconY": 16,
+            "IconHeight": 48,
+            "IconWidth": 48
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "arabicButton",
+            "X": 34,
+            "Y": 380,
+            "Width": 340,
+            "Height": 80,
+            "Pressed": "DashboardScreens\\LanguageMenu\\side_menu_button_pressed.png",
+            "Released": "DashboardScreens\\LanguageMenu\\side_menu_button_normal.png",
+            "IconPressed": "DashboardScreens\\LanguageMenu\\flag_icon_arabic.png",
+            "IconReleased": "DashboardScreens\\LanguageMenu\\flag_icon_arabic.png",
+            "IconX": 24,
+            "IconY": 16,
+            "IconHeight": 48,
+            "IconWidth": 48
+          },
+          {
+            "Type": "Image",
+            "Name": "englishSelectedIcon",
+            "X": 306,
+            "Y": 110,
+            "Width": 44,
+            "Height": 44,
+            "RelativeFilename": "DashboardScreens\\LanguageMenu\\radio_button_selected.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "chineseSelectedIcon",
+            "X": 306,
+            "Y": 206,
+            "Width": 44,
+            "Height": 44,
+            "RelativeFilename": "DashboardScreens\\LanguageMenu\\radio_button_normal.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "japaneseSelectedIcon",
+            "X": 306,
+            "Y": 302,
+            "Width": 44,
+            "Height": 44,
+            "RelativeFilename": "DashboardScreens\\LanguageMenu\\radio_button_normal.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "arabicSelectedIcon",
+            "X": 306,
+            "Y": 398,
+            "Width": 44,
+            "Height": 44,
+            "RelativeFilename": "DashboardScreens\\LanguageMenu\\radio_button_normal.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "closeButton",
+            "X": 326,
+            "Y": 14,
+            "Width": 64,
+            "Height": 64,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "X": 16,
+                "Y": 16,
+                "IconReleased": "DashboardScreens\\LanguageMenu\\close_icon_normal.png",
+                "IconPressed": "DashboardScreens\\LanguageMenu\\close_icon_pressed.png"
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "englishText",
+            "X": 128,
+            "Y": 113,
+            "Width": 150,
+            "Height": 39,
+            "TextId": "english",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 181,
+              "Green": 215,
+              "Blue": 253
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "chineseText",
+            "X": 128,
+            "Y": 209,
+            "Width": 150,
+            "Height": 39,
+            "TextId": "chinese",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 181,
+              "Green": 215,
+              "Blue": 253
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "japaneseText",
+            "X": 128,
+            "Y": 305,
+            "Width": 150,
+            "Height": 39,
+            "TextId": "japanese",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 181,
+              "Green": 215,
+              "Blue": 253
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "arabicText",
+            "X": 128,
+            "Y": 401,
+            "Width": 150,
+            "Height": 39,
+            "TextId": "arabic",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 181,
+              "Green": 215,
+              "Blue": 253
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "languageText",
+            "X": 34,
+            "Y": 14,
+            "Width": 244,
+            "Height": 51,
+            "TextId": "languageTitle",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 181,
+              "Green": 215,
+              "Blue": 253
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "closeButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "closeButton"
+            },
+            "Action": {
+              "Type": "ActionEmit",
+              "TriggerCustomTypeName": "LanguageSelector closeLanguageSelectorRequested happens"
+            }
+          },
+          {
+            "InteractionName": "englishButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "englishButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "englishButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "chineseButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "chineseButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "chineseButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "japaneseButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "japaneseButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "japaneseButtonClicked"
+            }
+          },
+          {
+            "InteractionName": "arabicButtonClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "arabicButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "arabicButtonClicked"
+            }
+          }
+        ],
+        "CustomTriggers": [
+          {
+            "Name": "closeLanguageSelectorRequested",
+            "Description": "When closeButton is pressed"
+          },
+          {
+            "Name": "languageChanged",
+            "Description": "When selected language is changed"
+          }
+        ]
+      }
+    ],
+    "Name": "MyApplication_29",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp",
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../../gcc/Makefile flash",
+    "FlashTargetIntCommandOverride": "make -f ../../gcc/Makefile intflash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H747/757",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../../STM32H747I-DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.26.1",
+  "CreatedBy": "4.26.1"
+}

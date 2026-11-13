@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.1">
+  <Languages>
+    <Language Id="GB" />
+    <Language Id="CN" />
+    <Language Id="JP" />
+    <Language Id="AR" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="StartScreen">
+      <Text Id="__SingleUse_3U5N" Alignment="Left" TypographyId="InfoboxSmall">
+        <Translation Language="GB">1310 KB</Translation>
+        <Translation Language="CN">1310 KB</Translation>
+        <Translation Language="JP">1310 KB</Translation>
+        <Translation Language="AR" Alignment="Right">1310 KB</Translation>
+      </Text>
+      <Text Id="__SingleUse_YQZL" Alignment="Right" TypographyId="Size16">
+        <Translation Language="GB"></Translation>
+        <Translation Language="CN"></Translation>
+        <Translation Language="JP"></Translation>
+        <Translation Language="AR">المخزن المؤقت للصورة النقطية و&#10;المخزن المؤقت للوحة الاستنساخ</Translation>
+      </Text>
+      <Text Id="__SingleUse_5EB4" Alignment="Left" TypographyId="Size16">
+        <Translation Language="GB">BITMAP CACHE &amp;&#10;STENCIL BUFFER</Translation>
+        <Translation Language="CN">位图缓存&#10;模板缓冲区</Translation>
+        <Translation Language="JP">ビットマップキャッシュ＆&#10;ステンシルバッファー</Translation>
+        <Translation Language="AR"></Translation>
+      </Text>
+      <Text Id="boxEnglish" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">ENGLISH</Translation>
+        <Translation Language="CN">英语</Translation>
+        <Translation Language="JP">英語</Translation>
+        <Translation Language="AR">الإنجليزيّة</Translation>
+      </Text>
+      <Text Id="boxChinese" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">CHINESE</Translation>
+        <Translation Language="CN">中文</Translation>
+        <Translation Language="JP">中国語</Translation>
+        <Translation Language="AR">الصّينيّة</Translation>
+      </Text>
+      <Text Id="boxJapanese" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">JAPANESE</Translation>
+        <Translation Language="CN">日语</Translation>
+        <Translation Language="JP">日本語</Translation>
+        <Translation Language="AR">اليابانيّة</Translation>
+      </Text>
+      <Text Id="boxArabic" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">ARABIC</Translation>
+        <Translation Language="CN">阿拉伯语</Translation>
+        <Translation Language="JP">アラビア語</Translation>
+        <Translation Language="AR">العربيّة</Translation>
+      </Text>
+      <Text Id="__SingleUse_S2XD" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">Compression of L8 bitmaps</Translation>
+        <Translation Language="CN">压缩L8位图</Translation>
+        <Translation Language="JP">L8ビットマップの圧縮</Translation>
+        <Translation Language="AR">ضغط الصور النقطية L8</Translation>
+      </Text>
+      <Text Id="__SingleUse_B5VD" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">Vector Fonts</Translation>
+        <Translation Language="CN">矢量字体</Translation>
+        <Translation Language="JP">ベクターフォント</Translation>
+        <Translation Language="AR">الخطوط ثلاثية الأبعاد</Translation>
+      </Text>
+      <Text Id="savingsInfo2" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">With the used flash-limiting initiatives the demo only take up 830 KB of flash storage.</Translation>
+        <Translation Language="CN">使用限制FLASH方案，&#10;示例仅占用830 KB的闪存</Translation>
+        <Translation Language="JP">フラッシュ削減技術を利用することで、 約830KBのフラッシュストレージのみが必要となります。</Translation>
+        <Translation Language="AR">مع ميزة استخدام الفلاش المحدودة، لا يستهلك التطبيق سوى 830 كيلو بايت من مساحة تخزين الفلاش.</Translation>
+      </Text>
+      <Text Id="__SingleUse_EB3S" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">To only use available internal flash</Translation>
+        <Translation Language="CN">仅仅使用可用的内部FLASH</Translation>
+        <Translation Language="JP">マイコン内蔵メモリのみを使用することが可能になる</Translation>
+        <Translation Language="AR" Alignment="Right">لاستخدام الفلاش الداخلي المتاح فقط</Translation>
+      </Text>
+      <Text Id="__SingleUse_P7XO" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">To limit programming time for complete application</Translation>
+        <Translation Language="CN">限制一个完整应用程序的烧录时间</Translation>
+        <Translation Language="JP">プログラム書込み時間が短縮可</Translation>
+        <Translation Language="AR" Alignment="Right">للحد من وقت البرمجة الكاملة للتطبيق</Translation>
+      </Text>
+      <Text Id="limitedTotalText" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">TOTAL MEMORY</Translation>
+        <Translation Language="CN">低容量</Translation>
+        <Translation Language="JP">メモリ容量</Translation>
+        <Translation Language="AR">الذّاكرة الإجماليّة</Translation>
+      </Text>
+      <Text Id="flashLimitedSuffix" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">KB</Translation>
+        <Translation Language="CN">KB</Translation>
+        <Translation Language="JP">KB</Translation>
+        <Translation Language="AR">KB</Translation>
+      </Text>
+      <Text Id="nonLimitedSuffix" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">MB</Translation>
+        <Translation Language="CN">MB</Translation>
+        <Translation Language="JP">MB</Translation>
+        <Translation Language="AR">MB</Translation>
+      </Text>
+      <Text Id="totalMemory" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">TOTAL MEMORY</Translation>
+        <Translation Language="CN">总存储量</Translation>
+        <Translation Language="JP">メモリ容量</Translation>
+        <Translation Language="AR">الذّاكرة الإجماليّة</Translation>
+      </Text>
+      <Text Id="nonLimitedNum" Alignment="Right" TypographyId="Size60">
+        <Translation Language="GB">10.5</Translation>
+        <Translation Language="CN">10.5</Translation>
+        <Translation Language="JP">10.5</Translation>
+        <Translation Language="AR">10.5</Translation>
+      </Text>
+      <Text Id="flashLimitedPrefix" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">FLASH-LIMITED</Translation>
+        <Translation Language="CN">节省FLASH</Translation>
+        <Translation Language="JP">フラッシュメモリ制限</Translation>
+        <Translation Language="AR">فلاش محدودة</Translation>
+      </Text>
+      <Text Id="nonLimitedPrefix" Alignment="Right" TypographyId="Size20">
+        <Translation Language="GB">NOT FLASH-LIMITED</Translation>
+        <Translation Language="CN">没有节省FLASH</Translation>
+        <Translation Language="JP">フラッシュメモリ無制限</Translation>
+        <Translation Language="AR">فلاش غير محدودة</Translation>
+      </Text>
+      <Text Id="flashLimitedNum" Alignment="Left" TypographyId="Size60">
+        <Translation Language="GB">830</Translation>
+        <Translation Language="CN">830</Translation>
+        <Translation Language="JP">830</Translation>
+        <Translation Language="AR">830</Translation>
+      </Text>
+      <Text Id="pressToUnlock" Alignment="Center" TypographyId="Size28">
+        <Translation Language="GB">PRESS TO UNLOCK</Translation>
+        <Translation Language="CN">按下解锁</Translation>
+        <Translation Language="JP">ロック解除</Translation>
+        <Translation Language="AR">إضغط لإلغاء القفل</Translation>
+      </Text>
+      <Text Id="unlock" Alignment="Center" TypographyId="Size28">
+        <Translation Language="GB">UNLOCK E-BIKE</Translation>
+        <Translation Language="CN">解锁电动车</Translation>
+        <Translation Language="JP">E-BIKEロック</Translation>
+        <Translation Language="AR">إلغاء قفل E-BIKE</Translation>
+      </Text>
+      <Text Id="nonLimitedTotalText" Alignment="Right" TypographyId="Size20">
+        <Translation Language="GB">TOTAL MEMORY</Translation>
+        <Translation Language="CN">总存储</Translation>
+        <Translation Language="JP">メモリ容量</Translation>
+        <Translation Language="AR" Alignment="Right">الذّاكرة الإجماليّة</Translation>
+      </Text>
+      <Text Id="__SingleUse_75VO" Alignment="Left" TypographyId="InfoboxMedium">
+        <Translation Language="GB">60-30 FPS</Translation>
+        <Translation Language="CN">60-30 FPS</Translation>
+        <Translation Language="JP">60-30 FPS</Translation>
+        <Translation Language="AR" Alignment="Right">60-30 FPS</Translation>
+      </Text>
+      <Text Id="__SingleUse_I2YC" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">STM32U5G9J-DK2&#10;RGB display 5" - 800x480</Translation>
+        <Translation Language="CN">STM32U5G9J-DK2 RGB&#10;5寸显示屏 - 800x480</Translation>
+        <Translation Language="JP">STM32U5G9J-DK2 RGB&#10;ディスプレイ５” - 800x480</Translation>
+        <Translation Language="AR" Alignment="Right">"STM32U5G9J-DK2 RGB&#10;شاشة 5 بوصة800x480"</Translation>
+      </Text>
+      <Text Id="__SingleUse_U866" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">TouchGFX application</Translation>
+        <Translation Language="CN">TouchGFX程序</Translation>
+        <Translation Language="JP">TouchGFXアプリケーション</Translation>
+        <Translation Language="AR" Alignment="Right">تطبيق TouchGFX</Translation>
+      </Text>
+      <Text Id="__SingleUse_MJHR" Alignment="Left" TypographyId="InfoboxSmall">
+        <Translation Language="GB">355 KB</Translation>
+        <Translation Language="CN">355 KB</Translation>
+        <Translation Language="JP">355 KB</Translation>
+        <Translation Language="AR" Alignment="Right">355 KB</Translation>
+      </Text>
+      <Text Id="__SingleUse_IKPI" Alignment="Left" TypographyId="InfoboxSmall">
+        <Translation Language="GB">473 KB</Translation>
+        <Translation Language="CN">473 KB</Translation>
+        <Translation Language="JP">473 KB</Translation>
+        <Translation Language="AR" Alignment="Right">473 KB</Translation>
+      </Text>
+      <Text Id="savingsInfo1" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">If this app was implemented with uncompressed bitmaps it would take up 10.5 MB flash storage.</Translation>
+        <Translation Language="CN">如果这个应用程序是用未压缩的位图实现的，&#10;它将占用10 MB的闪存。</Translation>
+        <Translation Language="JP">このアプリケーションが非圧縮ビットマップで実装された場合、 10.5MBのフラッシュストレージが必要となります。</Translation>
+        <Translation Language="AR">إذا تم تنفيذ هذا التطبيق باستخدام صور نقطية غير مضغوطة، فسيستهلك مساحة تخزين فلاش تبلغ 10 ميجابايت.</Translation>
+      </Text>
+      <Text Id="__SingleUse_TT9B" Alignment="Left" TypographyId="InfoboxSmall">
+        <Translation Language="GB">828 KB</Translation>
+        <Translation Language="CN">828 KB</Translation>
+        <Translation Language="JP">828 KB</Translation>
+        <Translation Language="AR" Alignment="Right">828 KB</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q77S" Alignment="Left" TypographyId="InfoboxSmall">
+        <Translation Language="GB">1536 KB</Translation>
+        <Translation Language="CN">1536 KB</Translation>
+        <Translation Language="JP">1536 KB</Translation>
+        <Translation Language="AR" Alignment="Right">1536 KB</Translation>
+      </Text>
+      <Text Id="__SingleUse_1W8H" Alignment="Left" TypographyId="InfoboxSmall">
+        <Translation Language="GB">146 KB</Translation>
+        <Translation Language="CN">146 KB</Translation>
+        <Translation Language="JP">146 KB</Translation>
+        <Translation Language="AR" Alignment="Right">146 KB</Translation>
+      </Text>
+      <Text Id="__SingleUse_8AW1" Alignment="Left" TypographyId="InfoboxSmall">
+        <Translation Language="GB">2992 KB</Translation>
+        <Translation Language="CN">2992 KB</Translation>
+        <Translation Language="JP">2992 KB</Translation>
+        <Translation Language="AR" Alignment="Right">2992 KB</Translation>
+      </Text>
+      <Text Id="__SingleUse_TR05" Alignment="Left" TypographyId="Size16">
+        <Translation Language="GB">ASSETS</Translation>
+        <Translation Language="CN">素材</Translation>
+        <Translation Language="JP">残量</Translation>
+        <Translation Language="AR" Alignment="Right">أصول</Translation>
+      </Text>
+      <Text Id="__SingleUse_7OL2" Alignment="Left" TypographyId="Size16">
+        <Translation Language="GB">DEMO APP</Translation>
+        <Translation Language="CN">示例应用</Translation>
+        <Translation Language="JP">デモアプリケーション</Translation>
+        <Translation Language="AR" Alignment="Right">التطبيق التجريبي</Translation>
+      </Text>
+      <Text Id="__SingleUse_36E6" Alignment="Left" TypographyId="Size16">
+        <Translation Language="GB">INTERNAL TOTAL</Translation>
+        <Translation Language="CN">内部总占用</Translation>
+        <Translation Language="JP">内蔵メモリ容量</Translation>
+        <Translation Language="AR" Alignment="Right">المجموع الداخلي</Translation>
+      </Text>
+      <Text Id="__SingleUse_0N61" Alignment="Left" TypographyId="Size16">
+        <Translation Language="GB">INTERNAL TOTAL</Translation>
+        <Translation Language="CN">内部总占用</Translation>
+        <Translation Language="JP">内蔵メモリ容量</Translation>
+        <Translation Language="AR" Alignment="Right">المجموع الداخلي</Translation>
+      </Text>
+      <Text Id="__SingleUse_HJOG" Alignment="Left" TypographyId="Size16">
+        <Translation Language="GB">DEMO APP</Translation>
+        <Translation Language="CN">示例应用</Translation>
+        <Translation Language="JP">デモアプリケーション</Translation>
+        <Translation Language="AR" Alignment="Right">التطبيق التجريبي</Translation>
+      </Text>
+      <Text Id="__SingleUse_RIX6" Alignment="Left" TypographyId="Size16">
+        <Translation Language="GB">16 BIT FRAMEBUFFERS</Translation>
+        <Translation Language="CN">16位帧缓冲</Translation>
+        <Translation Language="JP">16ビットフレームバッファー</Translation>
+        <Translation Language="AR" Alignment="Right">مخزن مؤقت للشاشة 16 بت</Translation>
+      </Text>
+      <Text Id="__SingleUse_QQM4" Alignment="Left" TypographyId="Size16">
+        <Translation Language="GB">FLASH</Translation>
+        <Translation Language="CN">FLASH</Translation>
+        <Translation Language="JP">フラッシュ</Translation>
+        <Translation Language="AR" Alignment="Right">فلاش</Translation>
+      </Text>
+      <Text Id="__SingleUse_C15C" Alignment="Left" TypographyId="Size16">
+        <Translation Language="GB">RAM</Translation>
+        <Translation Language="CN">RAM</Translation>
+        <Translation Language="JP">RAM</Translation>
+        <Translation Language="AR" Alignment="Right">RAM</Translation>
+      </Text>
+      <Text Id="__SingleUse_2OYU" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">PERFORMANCE</Translation>
+        <Translation Language="CN">性能</Translation>
+        <Translation Language="JP">パフォーマンス</Translation>
+        <Translation Language="AR" Alignment="Right">قياس الأداء</Translation>
+      </Text>
+      <Text Id="__SingleUse_QFYJ" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">HARDWARE</Translation>
+        <Translation Language="CN">硬件</Translation>
+        <Translation Language="JP">ハードウェア</Translation>
+        <Translation Language="AR" Alignment="Right">المعدات</Translation>
+      </Text>
+      <Text Id="__SingleUse_FH1I" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">SOFTWARE</Translation>
+        <Translation Language="CN">软件</Translation>
+        <Translation Language="JP">ソフトウェア</Translation>
+        <Translation Language="AR" Alignment="Right">برمجة</Translation>
+      </Text>
+      <Text Id="__SingleUse_RZTD" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">MEMORY FOOTPRINT</Translation>
+        <Translation Language="CN">内存占用</Translation>
+        <Translation Language="JP">メモリフットプリント</Translation>
+        <Translation Language="AR" Alignment="Right">كمية استخدام الذاكرة</Translation>
+      </Text>
+      <Text Id="__SingleUse_I23Y" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">save bill of material</Translation>
+        <Translation Language="CN"></Translation>
+        <Translation Language="JP"></Translation>
+        <Translation Language="AR"></Translation>
+      </Text>
+      <Text Id="__SingleUse_8C87" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">Limited flash need helps you to save bill of material.</Translation>
+        <Translation Language="CN">限制FLASH需求可以节省材料成本</Translation>
+        <Translation Language="JP">アプリケーションのBOMコスト削減に貢献</Translation>
+        <Translation Language="AR">استخدامات الفلاش المحدودة توفر فاتورة المواد الخاصة بك.</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q7DV" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">To settle for a smaller external flash</Translation>
+        <Translation Language="CN">应用于更小的外部FLASH</Translation>
+        <Translation Language="JP">外部メモリ容量の削減につながる</Translation>
+        <Translation Language="AR" Alignment="Right">لاستخدام فلاش خارجي أصغر</Translation>
+      </Text>
+      <Text Id="__SingleUse_BN79" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">Flash saving is useful in several cases</Translation>
+        <Translation Language="CN">节省FLASH在很多场景下都很有用</Translation>
+        <Translation Language="JP">フラッシュ容量削減のメリット</Translation>
+        <Translation Language="AR">يعد حفظ الفلاش مفيدًا في عدة حالات:</Translation>
+      </Text>
+      <Text Id="__SingleUse_FZZN" Alignment="Center" TypographyId="InfoboxLarge">
+        <Translation Language="GB">92 %</Translation>
+        <Translation Language="CN">92 %</Translation>
+        <Translation Language="JP">92 %</Translation>
+        <Translation Language="AR">92 %</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZNMH" Alignment="Center" TypographyId="InfoboxLarge">
+        <Translation Language="GB">830 KB</Translation>
+        <Translation Language="CN">830 KB</Translation>
+        <Translation Language="JP">830 KB</Translation>
+        <Translation Language="AR">830 KB</Translation>
+      </Text>
+      <Text Id="__SingleUse_HDR5" Alignment="Center" TypographyId="InfoboxLarge">
+        <Translation Language="GB">10.5 MB</Translation>
+        <Translation Language="CN">10.5 MB</Translation>
+        <Translation Language="JP">10.5 MB</Translation>
+        <Translation Language="AR"> 10.5 MB</Translation>
+      </Text>
+      <Text Id="__SingleUse_ODR0" Alignment="Center" TypographyId="Size20">
+        <Translation Language="GB">FLASH SAVING</Translation>
+        <Translation Language="CN">节省</Translation>
+        <Translation Language="JP">保存</Translation>
+        <Translation Language="AR">المكاسب</Translation>
+      </Text>
+      <Text Id="__SingleUse_7889" Alignment="Center" TypographyId="Size20">
+        <Translation Language="GB">FLASH-LIMITING</Translation>
+        <Translation Language="CN">限制FLASH</Translation>
+        <Translation Language="JP">フラッシュストレージ削減量</Translation>
+        <Translation Language="AR">الحد من الفلاش</Translation>
+      </Text>
+      <Text Id="__SingleUse_TDW1" Alignment="Center" TypographyId="Size20">
+        <Translation Language="GB">BITMAPS</Translation>
+        <Translation Language="CN">位图</Translation>
+        <Translation Language="JP">ビットマップ</Translation>
+        <Translation Language="AR">صورة نقطية</Translation>
+      </Text>
+      <Text Id="__SingleUse_TCQJ" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">SVG</Translation>
+        <Translation Language="CN">SVG</Translation>
+        <Translation Language="JP">SVG</Translation>
+        <Translation Language="AR">SVG</Translation>
+      </Text>
+      <Text Id="__SingleUse_J8GD" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">L8 image format</Translation>
+        <Translation Language="CN">L8图像格式</Translation>
+        <Translation Language="JP">L8画像フォーマット</Translation>
+        <Translation Language="AR">تنسيق الصورة L8</Translation>
+      </Text>
+      <Text Id="__SingleUse_6627" Alignment="Center" TypographyId="Size20">
+        <Translation Language="GB">VECTOR GRAPHIC FEATURES</Translation>
+        <Translation Language="CN">矢量</Translation>
+        <Translation Language="JP">ベクターグラフィック機能</Translation>
+        <Translation Language="AR">ميزات الرسومات ثلاثية الأبعاد</Translation>
+      </Text>
+      <Text Id="__SingleUse_U48F" Alignment="Center" TypographyId="Size20">
+        <Translation Language="GB">BITMAP FEATURES</Translation>
+        <Translation Language="CN">位图功能</Translation>
+        <Translation Language="JP">ビットマップ機能</Translation>
+        <Translation Language="AR">ميزات الصورة النقطية</Translation>
+      </Text>
+      <Text Id="infoPresentationTitle" Alignment="Center" TypographyId="Size56">
+        <Translation Language="GB">FLASH-LIMITED DEMO</Translation>
+        <Translation Language="CN">限制FLASH例程</Translation>
+        <Translation Language="JP">フラッシュメモリ削減デモ</Translation>
+        <Translation Language="AR">تطبيق ذو فلاش محدودة</Translation>
+      </Text>
+      <Text Id="infoUseCasesTitle" Alignment="Center" TypographyId="Size56">
+        <Translation Language="GB">USE CASES</Translation>
+        <Translation Language="CN">使用案例</Translation>
+        <Translation Language="JP">ユーズケース</Translation>
+        <Translation Language="AR">حالات الاستخدام</Translation>
+      </Text>
+      <Text Id="infoDetailsTitle" Alignment="Center" TypographyId="Size56">
+        <Translation Language="GB">DEMO DETAILS</Translation>
+        <Translation Language="CN">例程详情</Translation>
+        <Translation Language="JP">デモの詳細</Translation>
+        <Translation Language="AR">تفاصيل العرض التوضيحي</Translation>
+      </Text>
+      <Text Id="infoSavingsTitle" Alignment="Center" TypographyId="Size56">
+        <Translation Language="GB">SAVINGS</Translation>
+        <Translation Language="CN">节省</Translation>
+        <Translation Language="JP">フラッシュストレージ削減</Translation>
+        <Translation Language="AR">التوفير</Translation>
+      </Text>
+      <Text Id="__SingleUse_ILHB" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">LOW flash usage</Translation>
+        <Translation Language="CN"></Translation>
+        <Translation Language="JP"></Translation>
+        <Translation Language="AR"></Translation>
+      </Text>
+      <Text Id="__SingleUse_UK81" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">This demo proves that by using TouchGFX built-in features, you can develop advanced GUIs requiring LOW flash usage.</Translation>
+        <Translation Language="CN">这个示例证明，&#10;通过使用TouchGFX内置功能，&#10;您可以开发需要低FLASH使用率的高级GUI。</Translation>
+        <Translation Language="JP">このデモは、 TouchGFXの機能を利用することで、 フラッシュの使用量を抑えながら 高度なGUIが開発できることがご確認頂けます。&#10;</Translation>
+        <Translation Language="AR">هذا التطبيق يثبت انه يمكن إنجاز تطبيقات ذات جودة عالية رغم محدوديّة سعة الفلاشة و ذلك بإستعمال الخاصّيات المدمجة لدى TouchGFX </Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="BatteryScreen">
+      <Text Id="batteryLvl" Alignment="Right" TypographyId="Size70">
+        <Translation Language="GB">&lt;batLvl&gt;</Translation>
+        <Translation Language="CN">&lt;batLvl&gt;</Translation>
+        <Translation Language="JP">&lt;batLvl&gt;</Translation>
+        <Translation Language="AR">&lt;batLvl&gt;</Translation>
+      </Text>
+      <Text Id="batLvlWildcard" Alignment="Left" TypographyId="Size70">
+        <Translation Language="GB">100</Translation>
+        <Translation Language="CN">100</Translation>
+        <Translation Language="JP">100</Translation>
+        <Translation Language="AR">100</Translation>
+      </Text>
+      <Text Id="batteryPct" Alignment="Left" TypographyId="Size45">
+        <Translation Language="GB">%</Translation>
+        <Translation Language="CN">%</Translation>
+        <Translation Language="JP">%</Translation>
+        <Translation Language="AR">%</Translation>
+      </Text>
+      <Text Id="batteryCharging" Alignment="Center" TypographyId="Size30">
+        <Translation Language="GB">CHARGING</Translation>
+        <Translation Language="CN">充电中</Translation>
+        <Translation Language="JP">充電中</Translation>
+        <Translation Language="AR">الشّحن</Translation>
+      </Text>
+      <Text Id="batteryChargingDone" Alignment="Center" TypographyId="Size45">
+        <Translation Language="GB">DONE</Translation>
+        <Translation Language="CN">结束</Translation>
+        <Translation Language="JP">完了</Translation>
+        <Translation Language="AR">تمّ</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="WeatherScreens">
+      <Text Id="weatherTempVal" Alignment="Left" TypographyId="Size40">
+        <Translation Language="GB">0</Translation>
+        <Translation Language="CN">0</Translation>
+        <Translation Language="JP">0</Translation>
+        <Translation Language="AR">0</Translation>
+      </Text>
+      <Text Id="weatherSmallTemp" Alignment="Right" TypographyId="Size40">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+        <Translation Language="CN">&lt;temp&gt;</Translation>
+        <Translation Language="JP">&lt;temp&gt;</Translation>
+        <Translation Language="AR">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="weatherMediumTime" Alignment="Center" TypographyId="Size36">
+        <Translation Language="GB">&lt;timeStamp&gt;:00</Translation>
+        <Translation Language="CN">&lt;时间戳&gt;:00</Translation>
+        <Translation Language="JP">&lt;timeStamp&gt;:00</Translation>
+        <Translation Language="AR">&lt;timeStamp&gt;:00</Translation>
+      </Text>
+      <Text Id="weatherMediumTemp" Alignment="Right" TypographyId="Size56">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+        <Translation Language="CN">&lt;温度&gt;</Translation>
+        <Translation Language="JP">&lt;temp&gt;</Translation>
+        <Translation Language="AR">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="weatherLargeTime" Alignment="Center" TypographyId="Size40">
+        <Translation Language="GB">&lt;timeStamp&gt;:00</Translation>
+        <Translation Language="CN">&lt;时间戳&gt;:00</Translation>
+        <Translation Language="JP">&lt;timeStamp&gt;:00</Translation>
+        <Translation Language="AR">&lt;timeStamp&gt;:00</Translation>
+      </Text>
+      <Text Id="weatherLargeTemp" Alignment="Center" TypographyId="Size72">
+        <Translation Language="GB">&lt;temp&gt;°</Translation>
+        <Translation Language="CN">&lt;温度&gt;</Translation>
+        <Translation Language="JP">&lt;temp&gt;</Translation>
+        <Translation Language="AR">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="weatherSmallTime" Alignment="Center" TypographyId="Size30">
+        <Translation Language="GB">&lt;hr&gt;:00</Translation>
+        <Translation Language="CN">&lt;心率&gt;:00</Translation>
+        <Translation Language="JP">&lt;hr&gt;:00</Translation>
+        <Translation Language="AR">&lt;hr&gt;:00</Translation>
+      </Text>
+      <Text Id="clockHr" Alignment="Left" TypographyId="DashboardNumSmall">
+        <Translation Language="GB">12</Translation>
+        <Translation Language="CN">12</Translation>
+        <Translation Language="JP">12</Translation>
+        <Translation Language="AR">12</Translation>
+      </Text>
+      <Text Id="clockMin" Alignment="Left" TypographyId="DashboardNumSmall">
+        <Translation Language="GB">00</Translation>
+        <Translation Language="CN">00</Translation>
+        <Translation Language="JP">00</Translation>
+        <Translation Language="AR">00</Translation>
+      </Text>
+      <Text Id="weatherSmallClock" Alignment="Center" TypographyId="Size40">
+        <Translation Language="GB">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="CN">&lt;心率&gt;:&lt;分&gt;</Translation>
+        <Translation Language="JP">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="AR">&lt;hr&gt;:&lt;min&gt;</Translation>
+      </Text>
+      <Text Id="weatherMediumWindSpeed" Alignment="Center" TypographyId="Size36">
+        <Translation Language="GB">&lt;windSpeed&gt; m/s</Translation>
+        <Translation Language="CN">&lt;风速&gt; m/s</Translation>
+        <Translation Language="JP">&lt;windSpeed&gt; m/s</Translation>
+        <Translation Language="AR">&lt;سرعة الرّياح&gt; م/ث</Translation>
+      </Text>
+      <Text Id="weatherMediumClock" Alignment="Center" TypographyId="Size48">
+        <Translation Language="GB">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="CN">&lt;心率&gt;:&lt;分&gt;</Translation>
+        <Translation Language="JP">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="AR">&lt;hr&gt;:&lt;min&gt;</Translation>
+      </Text>
+      <Text Id="weatherLargeClock" Alignment="Center" TypographyId="Size56">
+        <Translation Language="GB">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="CN">&lt;心率&gt;:&lt;分&gt;</Translation>
+        <Translation Language="JP">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="AR">&lt;hr&gt;:&lt;min&gt;</Translation>
+      </Text>
+      <Text Id="time" Alignment="Left" TypographyId="Size40">
+        <Translation Language="GB">00</Translation>
+        <Translation Language="CN">00</Translation>
+        <Translation Language="JP">00</Translation>
+        <Translation Language="AR">00</Translation>
+      </Text>
+      <Text Id="weatherLargeCelsius" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">celsius</Translation>
+        <Translation Language="CN">℃</Translation>
+        <Translation Language="JP">°C</Translation>
+        <Translation Language="AR">°م</Translation>
+      </Text>
+      <Text Id="weatherMediumTitle" Alignment="Center" TypographyId="Size36">
+        <Translation Language="GB">WEATHER FORECAST</Translation>
+        <Translation Language="CN">天气预报</Translation>
+        <Translation Language="JP">天気予報</Translation>
+        <Translation Language="AR">توقّعات الطّقس</Translation>
+      </Text>
+      <Text Id="weatherLargeTitle" Alignment="Center" TypographyId="Size40">
+        <Translation Language="GB">WEATHER FORECAST</Translation>
+        <Translation Language="CN">天气预报</Translation>
+        <Translation Language="JP">天気予報</Translation>
+        <Translation Language="AR">توقّعات الطّقس</Translation>
+      </Text>
+      <Text Id="weatherSmallTitle" Alignment="Center" TypographyId="Size32">
+        <Translation Language="GB">WEATHER FORECAST</Translation>
+        <Translation Language="CN">天气预报</Translation>
+        <Translation Language="JP">天気予報</Translation>
+        <Translation Language="AR">توقّعات الطّقس</Translation>
+      </Text>
+      <Text Id="weatherSmallBack" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">BACK</Translation>
+        <Translation Language="CN">返回</Translation>
+        <Translation Language="JP">戻る</Translation>
+        <Translation Language="AR">رجوع</Translation>
+      </Text>
+      <Text Id="weatherLargeBack" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">BACK</Translation>
+        <Translation Language="CN">返回</Translation>
+        <Translation Language="JP">戻る</Translation>
+        <Translation Language="AR">رجوع</Translation>
+      </Text>
+      <Text Id="weatherMediumBack" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">BACK</Translation>
+        <Translation Language="CN">返回</Translation>
+        <Translation Language="JP">戻る</Translation>
+        <Translation Language="AR">رجوع</Translation>
+      </Text>
+      <Text Id="weatherMediumTempSuffix" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">°C</Translation>
+        <Translation Language="CN">℃</Translation>
+        <Translation Language="JP">℃</Translation>
+        <Translation Language="AR">°م</Translation>
+      </Text>
+      <Text Id="windSpeed" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">0</Translation>
+        <Translation Language="CN">0</Translation>
+        <Translation Language="JP">0</Translation>
+        <Translation Language="AR">0</Translation>
+      </Text>
+      <Text Id="weatherSmallWindSpeed" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">&lt;windSpeed&gt; m/s</Translation>
+        <Translation Language="CN">&lt;风速&gt; m/s</Translation>
+        <Translation Language="JP">&lt;windSpeed&gt; m/s</Translation>
+        <Translation Language="AR">&lt;سرعة الرّياح&gt; م/ث</Translation>
+      </Text>
+      <Text Id="weatherSmallTempSuffix" Alignment="Left" TypographyId="Size30">
+        <Translation Language="GB">°C</Translation>
+        <Translation Language="CN">℃</Translation>
+        <Translation Language="JP">℃</Translation>
+        <Translation Language="AR">°م</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="DashboardScreens">
+      <Text Id="dashboardSmallDist" Alignment="Right" TypographyId="GaugeInfoTextSmall">
+        <Translation Language="GB">&lt;distance&gt;</Translation>
+        <Translation Language="CN">&lt;距离&gt;</Translation>
+        <Translation Language="JP">&lt;距離&gt;</Translation>
+        <Translation Language="AR">&lt;distance&gt;</Translation>
+      </Text>
+      <Text Id="dashboardMediumTime" Alignment="Center" TypographyId="Size60">
+        <Translation Language="GB">&lt;dist&gt; km&lt;unused&gt;</Translation>
+        <Translation Language="CN">&lt;距离&gt; km&lt;unused&gt;</Translation>
+        <Translation Language="JP">&lt;距離&gt; km&lt;unused&gt;</Translation>
+        <Translation Language="AR">&lt;dist&gt; كم&lt;unused&gt;</Translation>
+      </Text>
+      <Text Id="dashboardTemp" Alignment="Right" TypographyId="Size40">
+        <Translation Language="GB">&lt;temp&gt;</Translation>
+        <Translation Language="CN">&lt;温度&gt;</Translation>
+        <Translation Language="JP">&lt;温度&gt;</Translation>
+        <Translation Language="AR">&lt;temp&gt;</Translation>
+      </Text>
+      <Text Id="dashboardLargeTime" Alignment="Center" TypographyId="GaugeInfoTextLarge">
+        <Translation Language="GB">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="CN">&lt;心率&gt;:&lt;分&gt;</Translation>
+        <Translation Language="JP">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="AR">&lt;hr&gt;:&lt;min&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_1CW7" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">30</Translation>
+        <Translation Language="CN">30</Translation>
+        <Translation Language="JP">30</Translation>
+        <Translation Language="AR">30</Translation>
+      </Text>
+      <Text Id="__SingleUse_M0KK" Alignment="Right" TypographyId="Size20">
+        <Translation Language="GB">15</Translation>
+        <Translation Language="CN">15</Translation>
+        <Translation Language="JP">15</Translation>
+        <Translation Language="AR">15</Translation>
+      </Text>
+      <Text Id="__SingleUse_5CB5" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">0</Translation>
+        <Translation Language="CN">0</Translation>
+        <Translation Language="JP">0</Translation>
+        <Translation Language="AR">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_HS8P" Alignment="Right" TypographyId="Size20">
+        <Translation Language="GB">50</Translation>
+        <Translation Language="CN">50</Translation>
+        <Translation Language="JP">50</Translation>
+        <Translation Language="AR">50</Translation>
+      </Text>
+      <Text Id="__SingleUse_8E0M" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">25</Translation>
+        <Translation Language="CN">25</Translation>
+        <Translation Language="JP">25</Translation>
+        <Translation Language="AR">25</Translation>
+      </Text>
+      <Text Id="__SingleUse_W4HD" Alignment="Right" TypographyId="Size20">
+        <Translation Language="GB">0</Translation>
+        <Translation Language="CN">0</Translation>
+        <Translation Language="JP">0</Translation>
+        <Translation Language="AR">0</Translation>
+      </Text>
+      <Text Id="dashboardTempVal" Alignment="Left" TypographyId="Size40">
+        <Translation Language="GB">0</Translation>
+        <Translation Language="CN">0</Translation>
+        <Translation Language="JP">0</Translation>
+        <Translation Language="AR">0</Translation>
+      </Text>
+      <Text Id="dashboardTempSuffix" Alignment="Left" TypographyId="Size30">
+        <Translation Language="GB">°C</Translation>
+        <Translation Language="CN">℃</Translation>
+        <Translation Language="JP">℃</Translation>
+        <Translation Language="AR">°م</Translation>
+      </Text>
+      <Text Id="dashboardBatLvlSuffix" Alignment="Left" TypographyId="Size30">
+        <Translation Language="GB">%</Translation>
+        <Translation Language="CN">%</Translation>
+        <Translation Language="JP">%</Translation>
+        <Translation Language="AR">%</Translation>
+      </Text>
+      <Text Id="dashboardBatLvl" Alignment="Right" TypographyId="Size40">
+        <Translation Language="GB">&lt;batLvl&gt;</Translation>
+        <Translation Language="CN">&lt;batLvl&gt;</Translation>
+        <Translation Language="JP">&lt;batLvl&gt;</Translation>
+        <Translation Language="AR">&lt;batLvl&gt;</Translation>
+      </Text>
+      <Text Id="dashboardBatLvlVal" Alignment="Left" TypographyId="Size30">
+        <Translation Language="GB">0</Translation>
+        <Translation Language="CN">0</Translation>
+        <Translation Language="JP">0</Translation>
+        <Translation Language="AR">0</Translation>
+      </Text>
+      <Text Id="gaugeLargeKmh" Alignment="Right" TypographyId="Size36">
+        <Translation Language="GB">km/h</Translation>
+        <Translation Language="CN">km/h</Translation>
+        <Translation Language="JP">km/h</Translation>
+        <Translation Language="AR">km/h</Translation>
+      </Text>
+      <Text Id="gaugeLargeWhkm" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">Wh/km</Translation>
+        <Translation Language="CN">Wh/km</Translation>
+        <Translation Language="JP">Wh/km</Translation>
+        <Translation Language="AR">Wh/km</Translation>
+      </Text>
+      <Text Id="gaugeLargeKm" Alignment="Right" TypographyId="DashboardNumLarge">
+        <Translation Language="GB">&lt;kmh&gt;</Translation>
+        <Translation Language="CN">&lt;kmh&gt;</Translation>
+        <Translation Language="JP">&lt;kmh&gt;</Translation>
+        <Translation Language="AR">&lt;kmh&gt;</Translation>
+      </Text>
+      <Text Id="gaugeLargeWh" Alignment="Left" TypographyId="DashboardNumLarge">
+        <Translation Language="GB">&lt;whkm&gt;</Translation>
+        <Translation Language="CN">&lt;whkm&gt;</Translation>
+        <Translation Language="JP">&lt;whkm&gt;</Translation>
+        <Translation Language="AR">&lt;whkm&gt;</Translation>
+      </Text>
+      <Text Id="dashboardLock" Alignment="Center" TypographyId="Size30">
+        <Translation Language="GB">LOCK</Translation>
+        <Translation Language="CN">上锁</Translation>
+        <Translation Language="JP">ロック</Translation>
+        <Translation Language="AR">إقفال</Translation>
+      </Text>
+      <Text Id="dashboardSelect" Alignment="Center" TypographyId="Size30">
+        <Translation Language="GB">SELECT</Translation>
+        <Translation Language="CN">选择</Translation>
+        <Translation Language="JP">選択</Translation>
+        <Translation Language="AR">إختار</Translation>
+      </Text>
+      <Text Id="dashboardSmallDistSuffix" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">km</Translation>
+        <Translation Language="CN">km</Translation>
+        <Translation Language="JP">km</Translation>
+        <Translation Language="AR">كم</Translation>
+      </Text>
+      <Text Id="bpm" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">0</Translation>
+        <Translation Language="CN">0</Translation>
+        <Translation Language="JP">0</Translation>
+        <Translation Language="AR">0</Translation>
+      </Text>
+      <Text Id="dashboardSmallBpmSuffix" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">BPM</Translation>
+        <Translation Language="CN">BPM</Translation>
+        <Translation Language="JP">BPM</Translation>
+        <Translation Language="AR">BPM</Translation>
+      </Text>
+      <Text Id="dashboardSmallBpm" Alignment="Right" TypographyId="GaugeInfoTextSmall">
+        <Translation Language="GB">&lt;bpm&gt;</Translation>
+        <Translation Language="CN">&lt;bpm&gt;</Translation>
+        <Translation Language="JP">&lt;bpm&gt;</Translation>
+        <Translation Language="AR">&lt;bpm&gt;</Translation>
+      </Text>
+      <Text Id="min" Alignment="Left" TypographyId="Size64">
+        <Translation Language="GB">00</Translation>
+        <Translation Language="CN">00</Translation>
+        <Translation Language="JP">00</Translation>
+        <Translation Language="AR">00</Translation>
+      </Text>
+      <Text Id="hr" Alignment="Left" TypographyId="Size64">
+        <Translation Language="GB">00</Translation>
+        <Translation Language="CN">00</Translation>
+        <Translation Language="JP">00</Translation>
+        <Translation Language="AR">00</Translation>
+      </Text>
+      <Text Id="dashboardSmallTime" Alignment="Center" TypographyId="GaugeInfoTextSmall">
+        <Translation Language="GB">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="CN">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="JP">&lt;hr&gt;:&lt;min&gt;</Translation>
+        <Translation Language="AR">&lt;hr&gt;:&lt;min&gt;</Translation>
+      </Text>
+      <Text Id="gaugeSmallKmh" Alignment="Right" TypographyId="Size24">
+        <Translation Language="GB">km/h</Translation>
+        <Translation Language="CN">km/h</Translation>
+        <Translation Language="JP">km/h</Translation>
+        <Translation Language="AR">km/h</Translation>
+      </Text>
+      <Text Id="gaugeSmallWhkm" Alignment="Left" TypographyId="Size24">
+        <Translation Language="GB">Wh/km</Translation>
+        <Translation Language="CN">Wh/km</Translation>
+        <Translation Language="JP">Wh/km</Translation>
+        <Translation Language="AR">Wh/km</Translation>
+      </Text>
+      <Text Id="kmh" Alignment="Left" TypographyId="DashboardNumSmall">
+        <Translation Language="GB">25</Translation>
+        <Translation Language="CN">25</Translation>
+        <Translation Language="JP">25</Translation>
+        <Translation Language="AR">25</Translation>
+      </Text>
+      <Text Id="gaugeSmallWh" Alignment="Left" TypographyId="DashboardNumSmall">
+        <Translation Language="GB">&lt;whkm&gt;</Translation>
+        <Translation Language="CN">&lt;whkm&gt;</Translation>
+        <Translation Language="JP">&lt;whkm&gt;</Translation>
+        <Translation Language="AR">&lt;whkm&gt;</Translation>
+      </Text>
+      <Text Id="gaugeSmallKm" Alignment="Right" TypographyId="DashboardNumSmall">
+        <Translation Language="GB">&lt;kmh&gt;</Translation>
+        <Translation Language="CN">&lt;kmh&gt;</Translation>
+        <Translation Language="JP">&lt;kmh&gt;</Translation>
+        <Translation Language="AR">&lt;kmh&gt;</Translation>
+      </Text>
+      <Text Id="whkm" Alignment="Left" TypographyId="DashboardNumSmall">
+        <Translation Language="GB">16</Translation>
+        <Translation Language="CN">16</Translation>
+        <Translation Language="JP">16</Translation>
+        <Translation Language="AR">16</Translation>
+      </Text>
+      <Text Id="distance" Alignment="Left" TypographyId="Size36">
+        <Translation Language="GB">0.0</Translation>
+        <Translation Language="CN">0.0</Translation>
+        <Translation Language="JP">0.0</Translation>
+        <Translation Language="AR">0.0</Translation>
+      </Text>
+      <Text Id="languageTitle" Alignment="Left" TypographyId="Size40">
+        <Translation Language="GB">LANGUAGE</Translation>
+        <Translation Language="CN">语言</Translation>
+        <Translation Language="JP">言語</Translation>
+        <Translation Language="AR" Alignment="Right">اللّغة</Translation>
+      </Text>
+      <Text Id="english" Alignment="Left" TypographyId="Size30">
+        <Translation Language="GB">ENGLISH&#10;</Translation>
+        <Translation Language="CN">英语</Translation>
+        <Translation Language="JP">英語</Translation>
+        <Translation Language="AR" Alignment="Right">الإنجليزيّة</Translation>
+      </Text>
+      <Text Id="arabic" Alignment="Left" TypographyId="Size30">
+        <Translation Language="GB">ARABIC</Translation>
+        <Translation Language="CN">阿拉伯语</Translation>
+        <Translation Language="JP">アラビア語</Translation>
+        <Translation Language="AR" Alignment="Right">العربيّة</Translation>
+      </Text>
+      <Text Id="chinese" Alignment="Left" TypographyId="Size30">
+        <Translation Language="GB">CHINESE&#10;&#10;</Translation>
+        <Translation Language="CN">中文</Translation>
+        <Translation Language="JP">中国語</Translation>
+        <Translation Language="AR" Alignment="Right">الصّينيّة</Translation>
+      </Text>
+      <Text Id="japanese" Alignment="Left" TypographyId="Size30">
+        <Translation Language="GB">JAPANESE&#10;&#10;</Translation>
+        <Translation Language="CN">日语</Translation>
+        <Translation Language="JP">日本語</Translation>
+        <Translation Language="AR" Alignment="Right">اليابانيّة</Translation>
+      </Text>
+      <Text Id="dashboardMediumDistSuffix" Alignment="Left" TypographyId="Size48">
+        <Translation Language="GB">km</Translation>
+        <Translation Language="CN">km</Translation>
+        <Translation Language="JP">km</Translation>
+        <Translation Language="AR">كم</Translation>
+      </Text>
+      <Text Id="dashboardMediumDist" Alignment="Right" TypographyId="GaugeInfoTextMedium">
+        <Translation Language="GB">&lt;distance&gt;</Translation>
+        <Translation Language="CN">&lt;距离&gt;</Translation>
+        <Translation Language="JP">&lt;距離&gt;</Translation>
+        <Translation Language="AR">&lt;distance&gt;</Translation>
+      </Text>
+      <Text Id="dashboardMediumBpm" Alignment="Right" TypographyId="GaugeInfoTextMedium">
+        <Translation Language="GB">&lt;bpm&gt;</Translation>
+        <Translation Language="CN">&lt;bpm&gt;</Translation>
+        <Translation Language="JP">&lt;bpm&gt;</Translation>
+        <Translation Language="AR">&lt;bpm&gt;</Translation>
+      </Text>
+      <Text Id="dashboardMediumBpmSuffix" Alignment="Left" TypographyId="Size48">
+        <Translation Language="GB">BPM</Translation>
+        <Translation Language="CN">BPM</Translation>
+        <Translation Language="JP">BPM</Translation>
+        <Translation Language="AR">BPM</Translation>
+      </Text>
+      <Text Id="__SingleUse_5ZDC" Alignment="Right" TypographyId="Size20">
+        <Translation Language="GB">0</Translation>
+        <Translation Language="CN">0</Translation>
+        <Translation Language="JP">0</Translation>
+        <Translation Language="AR">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_7RPA" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">3</Translation>
+        <Translation Language="CN">3</Translation>
+        <Translation Language="JP">3</Translation>
+        <Translation Language="AR">3</Translation>
+      </Text>
+      <Text Id="__SingleUse_EGER" Alignment="Right" TypographyId="Size20">
+        <Translation Language="GB">5</Translation>
+        <Translation Language="CN">5</Translation>
+        <Translation Language="JP">5</Translation>
+        <Translation Language="AR">5</Translation>
+      </Text>
+      <Text Id="__SingleUse_N434" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">0</Translation>
+        <Translation Language="CN">0</Translation>
+        <Translation Language="JP">0</Translation>
+        <Translation Language="AR">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_GRB8" Alignment="Right" TypographyId="Size20">
+        <Translation Language="GB">125</Translation>
+        <Translation Language="CN">125</Translation>
+        <Translation Language="JP">125</Translation>
+        <Translation Language="AR">125</Translation>
+      </Text>
+      <Text Id="__SingleUse_JRVV" Alignment="Left" TypographyId="Size20">
+        <Translation Language="GB">250</Translation>
+        <Translation Language="CN">250</Translation>
+        <Translation Language="JP">250</Translation>
+        <Translation Language="AR">250</Translation>
+      </Text>
+      <Text Id="gaugeMediumKm" Alignment="Right" TypographyId="DashboardNumMedium">
+        <Translation Language="GB">&lt;kmh&gt;</Translation>
+        <Translation Language="CN">&lt;kmh&gt;</Translation>
+        <Translation Language="JP">&lt;kmh&gt;</Translation>
+        <Translation Language="AR">&lt;kmh&gt;</Translation>
+      </Text>
+      <Text Id="gaugeMediumKmh" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">GEAR</Translation>
+        <Translation Language="CN">GEAR</Translation>
+        <Translation Language="JP">GEAR</Translation>
+        <Translation Language="AR">GEAR</Translation>
+      </Text>
+      <Text Id="gaugeMediumWhkm" Alignment="Center" TypographyId="Size24">
+        <Translation Language="GB">km/h</Translation>
+        <Translation Language="CN">km/h</Translation>
+        <Translation Language="JP">km/h</Translation>
+        <Translation Language="AR">km/h</Translation>
+      </Text>
+      <Text Id="gaugeMediumWh" Alignment="Left" TypographyId="DashboardNumMedium">
+        <Translation Language="GB">&lt;whkm&gt;</Translation>
+        <Translation Language="CN">&lt;whkm&gt;</Translation>
+        <Translation Language="JP">&lt;whkm&gt;</Translation>
+        <Translation Language="AR">&lt;whkm&gt;</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_1BKN" Alignment="Left" TypographyId="Size10">
+        <Translation Language="GB">New Text&lt;value&gt;</Translation>
+        <Translation Language="CN">New Text&lt;value&gt;</Translation>
+        <Translation Language="JP">New Text&lt;value&gt;</Translation>
+        <Translation Language="AR">New Text&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_KAXV" Alignment="Left" TypographyId="Size10">
+        <Translation Language="GB">10.6369</Translation>
+        <Translation Language="CN">New Text</Translation>
+        <Translation Language="JP">New Text</Translation>
+        <Translation Language="AR">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_B0Y2" Alignment="Left" TypographyId="Size10">
+        <Translation Language="GB">35.8256</Translation>
+        <Translation Language="CN">New Text</Translation>
+        <Translation Language="JP">New Text</Translation>
+        <Translation Language="AR">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_MDQ9" Alignment="Left" TypographyId="Size10">
+        <Translation Language="GB">Lat: &lt;lat&gt;  Lon: &lt;lon&gt;</Translation>
+        <Translation Language="CN">New Text&lt;value&gt;&lt;value&gt;</Translation>
+        <Translation Language="JP">New Text&lt;value&gt;&lt;value&gt;</Translation>
+        <Translation Language="AR">New Text&lt;value&gt;&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_5ZAH" Alignment="Left" TypographyId="Size10">
+        <Translation Language="GB">DriveSens AI</Translation>
+        <Translation Language="CN">New Text</Translation>
+        <Translation Language="JP">New Text</Translation>
+        <Translation Language="AR">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_LN2A" Alignment="Left" TypographyId="Size10">
+        <Translation Language="GB">Louey krayem</Translation>
+        <Translation Language="CN">New Text</Translation>
+        <Translation Language="JP">New Text</Translation>
+        <Translation Language="AR">New Text</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Size10" Font="georgiab.ttf" Size="20" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789.-,:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" />
+    <Typography Id="Size16" Font="Rajdhani-Bold.ttf" Size="16" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="12" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="12" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="12" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" />
+    </Typography>
+    <Typography Id="Size20" Font="Rajdhani-Bold.ttf" Size="20" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="15" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="15" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="15" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" />
+    </Typography>
+    <Typography Id="Size24" Font="Rajdhani-Bold.ttf" Size="24" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="19" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="19" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="19" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    </Typography>
+    <Typography Id="Size28" Font="Rajdhani-Bold.ttf" Size="28" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="23" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="23" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="23" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" />
+    </Typography>
+    <Typography Id="Size30" Font="Rajdhani-Bold.ttf" Size="30" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="25" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="25" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="30" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    </Typography>
+    <Typography Id="Size32" Font="Rajdhani-Bold.ttf" Size="32" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="27" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="27" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="27" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" />
+    </Typography>
+    <Typography Id="Size36" Font="Rajdhani-Bold.ttf" Size="36" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="31" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="31" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="31" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    </Typography>
+    <Typography Id="Size40" Font="Rajdhani-Bold.ttf" Size="40" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-" WildcardCharacterRanges="0-9">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="35" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="35" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="35" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" WildcardCharacters="-" WildcardCharacterRanges="0-9" />
+    </Typography>
+    <Typography Id="Size45" Font="Rajdhani-Bold.ttf" Size="45" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="40" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="40" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="40" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" />
+    </Typography>
+    <Typography Id="Size48" Font="Rajdhani-Bold.ttf" Size="48" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="35" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="37" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="37" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    </Typography>
+    <Typography Id="Size56" Font="Rajdhani-Bold.ttf" Size="56" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9">
+      <LanguageSetting Language="CN" Font="MXiangHeHeiSCPro-Bold.otf" Size="51" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="JP" Font="NotoSansJP-Bold.ttf" Size="51" Bpp="4" IsVector="yes" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+      <LanguageSetting Language="AR" Font="AGENCYR.TTF" Size="50" Bpp="4" IsVector="yes" IsCompressed="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    </Typography>
+    <Typography Id="Size60" Font="Rajdhani-Bold.ttf" Size="60" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Size64" Font="Rajdhani-Bold.ttf" Size="64" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters=".,-" WildcardCharacterRanges="0-9" />
+    <Typography Id="Size72" Font="Rajdhani-Bold.ttf" Size="72" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters="°,-" WildcardCharacterRanges="0-9" />
+    <Typography Id="Size70" Font="NotoSansJP-Bold.ttf" Size="70" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Size80" Font="Rajdhani-Bold.ttf" Size="80" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters=".,-" WildcardCharacterRanges="0-9" />
+    <Typography Id="Size100" Font="Rajdhani-Bold.ttf" Size="100" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters=".,-" WildcardCharacterRanges="0-9" />
+    <Typography Id="InfoboxSmall" Font="Rajdhani-Bold.ttf" Size="16" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="InfoboxMedium" Font="Rajdhani-Bold.ttf" Size="20" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="InfoboxLarge" Font="Rajdhani-Bold.ttf" Size="48" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="GaugeInfoTextSmall" Font="NotoSansJP-Bold.ttf" Size="64" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters="." WildcardCharacterRanges="0-9" />
+    <Typography Id="GaugeInfoTextMedium" Font="NotoSansJP-Bold.ttf" Size="80" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters="." WildcardCharacterRanges="0-9" />
+    <Typography Id="GaugeInfoTextLarge" Font="NotoSansJP-Bold.ttf" Size="100" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="DashboardNumSmall" Font="NotoSansJP-Bold.ttf" Size="105" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" WildcardCharacterRanges="0-9" />
+    <Typography Id="DashboardNumMedium" Font="NotoSansJP-Bold.ttf" Size="130" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" WildcardCharacterRanges="0-9" />
+    <Typography Id="DashboardNumLarge" Font="NotoSansJP-Bold.ttf" Size="160" Bpp="4" IsVector="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>
